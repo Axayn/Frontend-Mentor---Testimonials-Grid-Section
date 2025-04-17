@@ -1,0 +1,22 @@
+{
+  "name": "frontend-mentor---four-card-feature-section",
+  "version": "1.0.0",
+  "description": "Four card feature section",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass sass/main.scss css/style.css -w",
+    "compile:sass": "sass sass/main.scss css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
+    "compress:css": "sass --style=compressed css/style.prefix.css css/style.css",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+  },
+  "devDependencies": {
+    "sass": "^1.86.3",
+    "autoprefixer": "^10.4.21",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^11.0.1"
+  }
+}
