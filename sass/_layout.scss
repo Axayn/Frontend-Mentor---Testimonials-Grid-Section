@@ -8,13 +8,13 @@
 }
 
 .testimonials-section {
-  max-width: 100%;
+  max-width: calc((25.5rem + 3.2rem) * 4);
   display: grid;
-  grid-template-columns: repeat(4, 25.5rem);
+  grid-template-columns: repeat(4, 1fr);
   gap: 3.2rem;
 
   @include respond(tablet) {
-    grid-template-columns: repeat(2, 30.7rem);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   @include respond(mobile) {

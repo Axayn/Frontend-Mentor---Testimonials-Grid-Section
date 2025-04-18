@@ -131,17 +131,17 @@ textarea:not([rows]) {
 }
 
 .testimonials-section {
-  max-width: 100%;
+  max-width: 114.8rem;
   display: grid;
-  grid-template-columns: repeat(4, 25.5rem);
+  grid-template-columns: repeat(4, 1fr);
   gap: 3.2rem;
 }
-@media screen and (max-width: 71.8em) {
+@media screen and (max-width: 65.2em) {
   .testimonials-section {
-    grid-template-columns: repeat(2, 30.7rem);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 43.7em) {
+@media screen and (max-width: 34.2em) {
   .testimonials-section {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -160,7 +160,7 @@ textarea:not([rows]) {
   position: relative;
   z-index: 10;
 }
-@media screen and (max-width: 43.7em) {
+@media screen and (max-width: 34.2em) {
   .testimonials-card--1 {
     grid-column: auto;
   }
@@ -174,7 +174,7 @@ textarea:not([rows]) {
   background-image: url("../images/bg-pattern-quotation.svg");
   z-index: -1;
 }
-@media screen and (max-width: 43.7em) {
+@media screen and (max-width: 34.2em) {
   .testimonials-card--1::before {
     display: none;
   }
@@ -182,7 +182,7 @@ textarea:not([rows]) {
 .testimonials-card--3 {
   grid-column: 1;
 }
-@media screen and (max-width: 71.8em) {
+@media screen and (max-width: 65.2em) {
   .testimonials-card--3 {
     grid-column: auto;
   }
@@ -190,12 +190,12 @@ textarea:not([rows]) {
 .testimonials-card--4 {
   grid-column: 2/span 2;
 }
-@media screen and (max-width: 71.8em) {
+@media screen and (max-width: 65.2em) {
   .testimonials-card--4 {
     grid-column: 1/span 2;
   }
 }
-@media screen and (max-width: 43.7em) {
+@media screen and (max-width: 34.2em) {
   .testimonials-card--4 {
     grid-column: auto;
   }
@@ -204,13 +204,13 @@ textarea:not([rows]) {
   grid-column: 4/-1;
   grid-row: 1/span 2;
 }
-@media screen and (max-width: 71.8em) {
+@media screen and (max-width: 65.2em) {
   .testimonials-card--5 {
     grid-column: 1/span 2;
     grid-row: auto;
   }
 }
-@media screen and (max-width: 43.7em) {
+@media screen and (max-width: 34.2em) {
   .testimonials-card--5 {
     grid-column: auto;
   }
