@@ -14,7 +14,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Links
 
-- Live Site URL: [frontend-mentor-testimonials-grid-section](https://frontend-mentor-testimonials-grid-section0.netlify.app/)
+- Live Site URL: [frontend-mentor-testimonials-grid-section](https://frontend-mentor-testimonials-grid-0.netlify.app/)
 
 ## My process
 
