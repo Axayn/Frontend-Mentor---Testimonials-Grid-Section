@@ -153,7 +153,7 @@ textarea:not([rows]) {
   border-radius: 0.8rem;
   display: grid;
   gap: 1.6rem;
-  box-shadow: 4rem 6rem 5rem -4.7rem rgba(72, 85, 106, 0.2474);
+  box-shadow: 4rem 6rem 3rem 0 rgba(72, 85, 106, 0.2474);
 }
 .testimonials-card--1 {
   grid-column: 1/span 2;
@@ -181,6 +181,7 @@ textarea:not([rows]) {
 }
 .testimonials-card--3 {
   grid-column: 1;
+  z-index: 10;
 }
 @media screen and (max-width: 65.2em) {
   .testimonials-card--3 {
@@ -189,6 +190,7 @@ textarea:not([rows]) {
 }
 .testimonials-card--4 {
   grid-column: 2/span 2;
+  z-index: 10;
 }
 @media screen and (max-width: 65.2em) {
   .testimonials-card--4 {
@@ -203,6 +205,7 @@ textarea:not([rows]) {
 .testimonials-card--5 {
   grid-column: 4/-1;
   grid-row: 1/span 2;
+  z-index: 10;
 }
 @media screen and (max-width: 65.2em) {
   .testimonials-card--5 {

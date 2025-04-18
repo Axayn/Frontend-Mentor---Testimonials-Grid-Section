@@ -30,7 +30,7 @@
   display: grid;
   gap: 1.6rem;
 
-  box-shadow: 4rem 6rem 5rem -4.7rem rgba(#48556a, 24.74%);
+  box-shadow: 4rem 6rem 3rem 0 rgba(#48556a, 24.74%);
 
   &--1 {
     grid-column: 1 / span 2;
@@ -60,6 +60,8 @@
   &--3 {
     grid-column: 1;
 
+    z-index: 10;
+
     @include respond(tablet) {
       grid-column: auto;
     }
@@ -67,6 +69,8 @@
 
   &--4 {
     grid-column: 2 / span 2;
+
+    z-index: 10;
 
     @include respond(tablet) {
       grid-column: 1 / span 2;
@@ -80,6 +84,8 @@
   &--5 {
     grid-column: 4 / -1;
     grid-row: 1 / span 2;
+
+    z-index: 10;
 
     @include respond(tablet) {
       grid-column: 1 / span 2;
